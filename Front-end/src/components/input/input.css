@@ -1,0 +1,30 @@
+.input-container {
+    display: flex;
+    justify-content: center; 
+
+  }
+  
+  .input {
+    color: grey;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0.7em 0.5em;
+    border: none;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.39);
+    margin-bottom: 20px;
+  }
+  
+  .input:hover {
+    background-color: 255, 249, 249;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input:focus ~ .input-border {
+    width: 100%;
+  }
+  

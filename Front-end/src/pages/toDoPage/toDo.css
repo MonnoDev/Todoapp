@@ -1,0 +1,30 @@
+.todo-item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 18px;
+}
+
+.todo-item svg{
+  cursor: pointer;
+}
+
+.todo-text {
+margin-right: 10px;
+}
+
+.icon-container svg{
+margin-left: 7px;
+cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through; /* Add line-through style to text */
+  opacity: 0.5; /* Adjust opacity for visual effect */
+}
+
+input {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+}
