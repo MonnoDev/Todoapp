@@ -6,7 +6,7 @@ import './toDo.css';
 
 interface ToDoItemProps {
   text: string;
-  index: number; // Added index prop to identify the position of the item
+  index: number;
   onDelete: () => void;
   onEdit: (newText: string) => void;
 }

@@ -19,8 +19,8 @@ cursor: pointer;
 }
 
 .done {
-  text-decoration: line-through; /* Add line-through style to text */
-  opacity: 0.5; /* Adjust opacity for visual effect */
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 input {
